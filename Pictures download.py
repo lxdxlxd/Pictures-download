@@ -2,7 +2,7 @@
 import re
 import requests
 
-word = raw_input("Input key word: ")
+word = raw_input("Input a key word: ")
 url = 'http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&word='+word+'&ct=201326592&v=flip'
 result = requests.get(url)
 
